@@ -1,7 +1,3 @@
-Here's a README file for your project:
-
----
-
 # Image Picker
 
 Welcome to the **Image Picker** project! This React Native application provides a seamless image picking experience with powerful editing capabilities. 
