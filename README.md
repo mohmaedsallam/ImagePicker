@@ -1,6 +1,6 @@
 # Image Picker
 
-Welcome to the **Image Picker** project! This React Native application provides a seamless image picking experience with powerful editing capabilities. 
+Welcome to the **Image Picker** project! This React Native Expo application provides a seamless image picking experience with powerful editing capabilities.
 
 ## Features
 
@@ -15,11 +15,11 @@ Welcome to the **Image Picker** project! This React Native application provides 
 
 ## Technologies Used
 
-- **React Native Expo**
+- **Expo**: For fast development and easy setup.
 - **Redux & Redux Toolkit**: For state management.
 - **Redux Persist**: To persist state.
 - **AsyncStorage**: To store data locally.
-- **Camera and Image Picker**: Select images from the library or capture new ones using the camera.
+- **Expo Image Picker and Camera**: Select images from the library or capture new ones using the camera.
 
 ## Installation
 
@@ -46,13 +46,19 @@ npm install
 For iOS:
 
 ```bash
-npx react-native run-ios
+npx expo start --ios
 ```
 
 For Android:
 
 ```bash
-npx react-native run-android
+npx expo start --android
+```
+
+5. Or, run it in the browser:
+
+```bash
+npx expo start --web
 ```
 
 ## Usage
@@ -72,4 +78,4 @@ This project is licensed under the MIT License.
 
 ---
 
-You can customize this as needed!
+You can modify this further to suit your needs!
