@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+Here's a README file for your project:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# Image Picker
 
-1. Install dependencies
+Welcome to the **Image Picker** project! This React Native application provides a seamless image picking experience with powerful editing capabilities. 
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Image Selection**: Pick images from your gallery or capture directly using your camera.
+- **Multiple Image Support**: Choose multiple images from your library.
+- **Image Editing**: 
+  - Scale, rotate, and revert your images.
+  - Crop images with freehand and aspect ratio options.
+- **State Management**: Built with Redux and Redux Toolkit for efficient state handling.
+- **Persistent Storage**: Uses Redux Persist and AsyncStorage to retain app data across sessions.
+- **Image Deletion**: Easily delete selected or captured images.
 
-   ```bash
-    npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+- **React Native Expo**
+- **Redux & Redux Toolkit**: For state management.
+- **Redux Persist**: To persist state.
+- **AsyncStorage**: To store data locally.
+- **Camera and Image Picker**: Select images from the library or capture new ones using the camera.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/mohmaedsallam/ImagePicker.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navigate to the project directory:
 
-## Learn more
+```bash
+cd ImagePicker
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Install dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+4. Run the app:
 
-Join our community of developers creating universal apps.
+For iOS:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx react-native run-ios
+```
+
+For Android:
+
+```bash
+npx react-native run-android
+```
+
+## Usage
+
+1. Launch the app.
+2. Choose to pick images from the gallery or capture a new one using the camera.
+3. Use the editing tools to scale, rotate, crop, or delete images.
+4. The selected images and edits are stored and will persist even after closing and reopening the app.
+
+## Contributing
+
+Feel free to contribute by opening issues or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+You can customize this as needed!
